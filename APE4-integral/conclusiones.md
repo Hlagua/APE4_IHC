@@ -1,0 +1,5 @@
+# Conclusiones · APE 4 integral
+
+1. **El diagnóstico antes de probar evita gastar la prueba en errores obvios.** La revisión heurística de la v2 encontró cinco problemas (pago rechazado ambiguo, búsqueda que exige tildes, «−» bloqueado, iconos vacíos y accesibilidad de teclado) que se corrigieron en la v3; así la prueba con usuarios puede revelar lo que el equipo no ve.
+2. **La visibilidad del estado y la recuperación de errores son las que más confianza generan.** En un pago, decir explícitamente qué pasó («no se realizó ningún cobro») y qué hacer («Reintentar pago») convierte un error del sistema en una tarea que el usuario puede completar sin auxilio.
+3. **La evaluación empírica con participantes reales y métricas cuantitativas sustenta las decisiones de iteración.** Registrar tiempo, clics y éxito observacional en `resultados.csv` (100% de éxito, 21.8 s promedio) demostró que las fricciones menores restantes eran de índole semántica (duda con la etiqueta «Cancelar» vs. «Mantener en el pedido») y de visibilidad de datos (ingredientes en el menú y copiado del código #A24), resolviéndose en la v3.1 con justificación en principios de usabilidad de Nielsen.
