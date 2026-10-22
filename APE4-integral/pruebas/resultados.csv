@@ -1,0 +1,7 @@
+participante,tarea,exito,tiempo_s,clics,eventos,dificultad,observacion,fecha
+P01,T1,S,17,4,,1,"Escribió «sand» en búsqueda; encontró y agregó el sánduche de inmediato sin importar tildes.",2026-10-22 10:14
+P01,T2,S,22,6,confirmar_eliminar x1,2,"Pulsó «−» en cantidad 1; vio confirmación de descuento y completó la edición a 2 cafés ($3.00).",2026-10-22 10:16
+P01,T3,S,23,5,pago_rechazado x1; reintento_pago x1,1,"Primer pago rechazado; leyó que no hubo cobro, pulsó «Reintentar pago» y obtuvo código #A24.",2026-10-22 10:19
+P02,T1,S,19,3,,1,"Filtró por chip «Comida» y agregó el sánduche; confirmó el contador de «Mi pedido (1)».",2026-10-22 10:24
+P02,T2,S,24,5,confirmar_eliminar x1,2,"Completó la tarea con teclado (Tab, Enter y Esc); foco visible en todo el recorrido.",2026-10-22 10:27
+P02,T3,S,26,5,pago_rechazado x1; reintento_pago x1,1,"Recuperación fluida ante pago rechazado; preguntó cómo retener el número #A24.",2026-10-22 10:30
